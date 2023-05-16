@@ -1,8 +1,8 @@
 list_1= [ 0, 2, 4, 5, 9]
 list_2= [ 1, 3, 5, 7, 9]
 
-puts list_1.find_index(4)
 
+# Intersection: Given two (singly) linked lists, determine if the two lists intersect.
 def intersect(list_1, list_2)
     for i in list_1 do
         for j in list_2 do
@@ -16,6 +16,8 @@ def intersect(list_1, list_2)
 end
 
 puts intersect(list_1, list_2)
+
+# Loop Detection: Given a circular linked list, implement an algorithm that returns the node at the beginning of the loop.
 
 circuler_list = ['A', 'B', 'C', 'D', 'C']
 
