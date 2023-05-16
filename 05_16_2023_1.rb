@@ -22,10 +22,8 @@ puts intersect(list_1, list_2)
 circuler_list = ['A', 'B', 'C', 'D', 'C']
 
 def find_loop(list)
-    duplicate = []
     count = Hash.new(0)
     list.each do |value|
-        # duplicate << value if list.count(value) >= 1
         count[value] += 1 
     end
     
